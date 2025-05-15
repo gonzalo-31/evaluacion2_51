@@ -1,0 +1,50 @@
+* {
+    margin: 0; /* Elimina márgenes de todos los elementos */
+    padding: 0; /* Elimina padding de todos los elementos */
+    box-sizing: border-box; /* Asegura que el tamaño total no se vea afectado por padding o bordes */
+  }
+  
+  .hero {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    text-align: center;
+    padding: 0; /* Elimina el padding */
+    margin: 0; /* Elimina márgenes adicionales */
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex; /* Usa flexbox para alinear los elementos */
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    width: 100vw; /* Asegura que el ancho ocupe toda la ventana */
+    overflow-x: hidden; /* Evita desbordamiento horizontal */
+  }
+  
+  .hero h1 {
+    z-index: 1;
+    color: white;
+    margin: 0; /* Elimina márgenes adicionales */
+    padding: 0; /* Asegura que no haya padding */
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(0);
+    transition: transform 0.1s linear;
+    will-change: transform;
+  }
+  

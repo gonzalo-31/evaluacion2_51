@@ -1,8 +1,8 @@
 #root {
-  
   margin: 0 auto;
-
   text-align: center;
+  background: #003242; /* Azul oscuro similar al header */
+  min-height: 100vh;
 }
 
 .logo {
@@ -42,10 +42,10 @@
 }
 
 .nav-item {
-  padding: 1.5em 3em; /* Ajusta el espaciado vertical y horizontal */
+  padding: 1.5em 3em;
   text-align: center;
 }
 
 .nav-item-button {
-  padding: 2em 4em; /* Espaciado adicional para botones */
+  padding: 2em 4em;
 }
